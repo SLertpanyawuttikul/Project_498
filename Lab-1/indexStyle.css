@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+}
+
+.centerimg {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+            margin: 0 auto;
+            max-width: 500px; /* Set the maximum width of the image */
+            height: auto;
+}
+
+hr {
+    border: 5px solid #000; /* Replace #000 with your desired color code */
+    margin: 20px 0; /* Adjust the margin as per your design preference */
+}
