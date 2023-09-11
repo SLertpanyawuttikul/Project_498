@@ -1,9 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('https://media.tenor.com/PKo4GT8ce5oAAAAC/pochita-spin.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+}
+
 .center-container {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 10vh;
-    background-color: #ffffff;
 }
 
 #addButton {
