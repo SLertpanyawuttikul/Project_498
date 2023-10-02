@@ -1,0 +1,15 @@
+img {
+    height: 200px;
+  }
+  
+  body {
+    touch-action: none;
+    margin: 0;
+  }
+  
+  #sidewalk {
+    background-color: lightgray;
+    height: 50px;
+    z-index: -1;
+    margin: 30px;
+  }
