@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit';
+}
+
+body {
+    background-image: url("background.jpg");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-attachment: fixed;
+}
+
+.container {
+    display: flex;
+  }
+  
+  .category-sidebar {
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .category-sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .category-sidebar li {
+    margin-bottom: 10px;
+  }
+  
+  .category-sidebar a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+  }
+  
+  .category-sidebar a:hover {
+    background-color: #555;
+  }
+  
+  .map {
+    flex: 1;
+    padding: 20px;
+    margin-left: 10px; /* ให้ .map ห่างจาก .category-sidebar 10px */
+  }
+  
+  #su-map {
+    width: 860px;
+    height: 580px;
+    border: none;
+    border-radius: 15px;
+  }
+  
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap; /* กำหนดให้ข้อจำกัดในแนวนอน */
+  }
+
+.custom-button {
+    background: transparent;
+    border: 1px solid black;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
