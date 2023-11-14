@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Kanit';
+}
+
+body {
+  background-color: rgba(20, 83, 100, 255);
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+.container {
+  display: flex;
+  padding-top: 50px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.category-sidebar {
+  width: 200px;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  margin-left: 0;
+}
+
+.category-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.category-sidebar li {
+  margin-bottom: 10px;
+}
+
+.category-sidebar a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+
+.category-sidebar a:hover {
+  background-color: #555;
+}
+
+.map {
+  margin-top: 20px;
+  margin-left: 50px;
+  /* ให้ .map ห่างจาก .category-sidebar 10px */
+}
+
+#su-map {
+  width: 860px;
+  height: 580px;
+  border: none;
+  border-radius: 15px;
+}
+
+#detail {
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 30px;
+  background: white;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* กำหนดให้ข้อจำกัดในแนวนอน */
+}
+
+.btn-group {
+  display: block;
+}
+
+button {
+  background: rgba(20, 83, 100, 255);
+  border: 2px solid black;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+button a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+
+button a:hover {
+  background-color: #555;
+}
